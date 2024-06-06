@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  height: 100vh; /* 100% of the viewport height */
+
+  background-color: #7710a080;
+  color: #0011ff80; 
+}
+
+.header-section {
+  width: 100%; /* Full width of the body */
+  height: 50px;
+  background-color: #5684d480;
+  color: #5684d480;
+}
+
+.main-section {
+  display: flex;
+  flex: 1; /* Take remaining vertical space */
+}
+
+.left-section, .right-section {
+  height: 100%; /* Full height of the main section */
+}
+
+.left-section {
+  flex: 2; /* Take 2/3 of the available space */
+  margin: 10px;
+  padding: 10px;
+  background-color: #eae2e280;
+  border: 5px solid #000000;
+  overflow: auto;
+}
+
+.right-section {
+  flex: 1; /* Take 1/3 of the available space */
+  margin: 10px;
+}
+
+.figure-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.figure-container img {
+  max-width: 100%; /* Shrink images to fit their container */
+}
+
+#accordionExample {
+  margin: 10px;
+  /* padding: 10px; */
+  border: 5px solid #000000;
+}
+
+#borderImg {
+  border: 5px solid #000000;
+}
